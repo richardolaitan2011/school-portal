@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dikeledi Coding School</title>
+<link rel="stylesheet" href="./asset/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <div class="logo">Dikeledi Coding School</div>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#academics">Academics</a></li>
+        <li><a href="#portal">Portal</a></li>
+        <li><a href="#admission">Admission</a></li>
+        <li><a href="#detail">Detail</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="hero">
+    <h1>Welcome to Dikeledi Coding School</h1>
+    <p>Empowering the next generation of developers with practical technology skills.</p>
+    <img src="./asset/image/campus.jpg" alt="School Campus">
+    <h3>School Highlight</h3>
+    <p>Students build real apps, join coding bootcamps, and receive mentorship for career success.</p>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Us</h2>
+    <img class="section-img" src="./asset/image/faculty.jpg" alt="Faculty">
+    <p><strong>Motto:</strong> "Code Today, Create Tomorrow"</p>
+    <p><strong>Mission:</strong> To provide quality coding education that prepares students for real-world technology careers.</p>
+
+    <h3>Faculty</h3>
+    <div class="grid">
+        <div class="card">Lead Instructor – Software Engineering</div>
+        <div class="card">Web Development Coach</div>
+        <div class="card">Mobile App Mentor</div>
+    </div>
+
+    <h3>Directory</h3>
+    <p>Administration • Lecturers • Student Support • Career Services • IT Support • Counseling Department</p>
+</section>
+
+<!-- ACADEMICS -->
+<section id="academics">
+    <h2>Academics</h2>
+    <div class="grid">
+        <div class="card"><strong>Curriculum:</strong> Programming, Web, Mobile, Databases</div>
+        <div class="card"><strong>Departments:</strong> Software Dev, Data, UI/UX, AI & ML</div>
+        <div class="card"><strong>Library:</strong> Digital resources & coding books, reading areas</div>
+        <div class="card"><strong>Grade Scale:</strong> A(90–100), B(80–89), C(70–79), D(60–69), F</div>
+    </div>
+</section>
+
+<!-- PORTAL -->
+<section id="portal">
+    <h2>Student Portal</h2>
+    <ul>
+        <li>Check Grades</li>
+        <li>Attendance Records</li>
+        <li>Newsletter Updates</li>
+    </ul>
+</section>
+
+<!-- ADMISSION -->
+<section id="admission">
+    <h2>Admission</h2>
+    <p><strong>How to Apply:</strong> Complete online form, submit required documents, attend interview or orientation session.</p>
+    <p><strong>Tuition Fee:</strong> Affordable flexible payment plans starting from $300 per semester.</p>
+</section>
+
+<!-- DETAIL -->
+<section id="detail">
+    <h2>School Details</h2>
+    <img class="section-img" src="./asset/image/lab.jpg" alt="Labs">
+    <p>Our school offers modern computer labs equipped with the latest software, high-speed internet, and collaborative spaces for students to innovate. Students engage in project-based learning, internships, coding competitions, and community outreach programs. Additionally, the school has partnerships with tech companies to ensure students get exposure to real-world challenges. Extracurricular activities include tech clubs, hackathons, and mentorship programs to develop leadership and teamwork skills.</p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact Us</h2>
+    <div class="form-box">
+        <input type="text" placeholder="Name" required>
+        <input type="text" placeholder="Surname" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Comment"></textarea>
+        <label><input type="checkbox"> Remember Me</label>
+        <br><br>
+        <button class="btn">Send Message</button>
+        <br><br>
+        <a href="#" onclick="openSignin(alert)">Sign In</a>
+    </div>
+</section>
+
+<!-- SIGN IN MODAL -->
+<div id="signin">
+    <div class="modal">
+        <h3>Sign In</h3>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <button class="btn" onclick="closeSignin()">Login</button>
+    </div>
+</div>
+
+<footer>
+    © 2026 Dikeledi Coding School
+</footer>
+<script src="./asset/script.js"></script>
+</body>
+</html>
